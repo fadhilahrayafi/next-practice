@@ -1,0 +1,61 @@
+$dark-gray: #24242E;
+
+@keyframes fadeIn {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+@font-face {
+    font-family: "Axiforma";
+    src: url('/FontsFree-Net-aa1-2.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.container {
+    width: 70%;
+    position: fixed;
+    min-height: 200px;
+    min-width: 200px;
+    z-index: 9999;
+    background-color: white;
+    top: 35%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 16px;
+    gap: 16px;
+    border: 1px solid #E4E4EB;
+    border-radius: 24px;
+    text-align: center;
+    font-family: 'Axiforma';
+    padding: 16px;
+    opacity: 1;
+    animation: fadeIn 1s linear;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: $dark-gray;
+}
+
+.body {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $dark-gray;
+
+}
+
+.bodyTitle {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    color: #7B7D8D;
+}

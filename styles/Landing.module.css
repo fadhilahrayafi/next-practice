@@ -1,0 +1,25 @@
+.landingPage {
+    width: 100%;
+    height: auto;
+}
+
+.background {
+    filter: brightness(50%);
+    width: 100% !important;
+    height: auto;
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+}
+
+.marchantLogo {
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    opacity: 1;
+    animation: fade 3s linear;
+}
